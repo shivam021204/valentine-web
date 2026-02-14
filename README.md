@@ -1,74 +1,88 @@
-# 💜 Valentine's Day Proposal Page
+💜 Valentine’s Proposal Webpage
 
-An interactive and playful Valentine's Day proposal webpage with a fun twist!
-
-## ✨ Features
-
-- Beautiful gradient background with glassmorphism design
-- Interactive "Yes" and "No" buttons with playful responses
-- The "Yes" button grows larger each time "No" is clicked
-- Cute animated GIFs to set the mood
-- Fully responsive design for mobile and desktop
-- Success page when they say yes!
+A playful and interactive Valentine-themed webpage designed to deliver a sweet proposal with a fun user experience twist.
 
 
-## 📁 Files
+✨ Highlights
 
-- `index.html` - Main proposal page
-- `yes_page.html` - Success page (shown when "Yes" is clicked)
-- `styles.css` - Styling for main page
-- `yes_style.css` - Styling for success page
-- `script.js` - Interactive functionality
+Soft gradient background with a modern glassmorphism look
 
-## 🎨 Color Scheme
+Interactive Yes and No buttons with playful responses
 
-- Soft lavender to sage green gradient background
-- Muted purple (#5d4e6d) for text
-- Sage green gradient for "Yes" button
-- Dusty mauve gradient for "No" button
+The Yes button increases in size whenever “No” is selected
 
-## 💻 Usage
+Cute animated GIFs to enhance the mood
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/repository-name.git
-   ```
+Responsive layout for both mobile and desktop screens
 
-2. Open `index.html` in your web browser
+A celebratory success page when “Yes” is clicked
 
-3. Customize the messages in `script.js` to make it personal!
 
-## 🛠️ Customization
 
-### Change the messages:
-Edit the `messages` array in `script.js`:
-```javascript
+📁 Project Structure
+
+index.html → main proposal interface
+
+yes_page.html → success page displayed after acceptance
+
+styles.css → styling for the main page
+
+yes_style.css → styling for the success page
+
+script.js → handles interactive behavior
+
+🎨 Design Palette
+
+Lavender → sage gradient background
+
+Sage green gradient for the Yes button
+
+Dusty mauve gradient for the No button
+
+💻 How to Use
+
+Clone the repository:
+
+git clone https://github.com/shivam021204/valentine-web.git
+
+
+Open index.html in your browser.
+
+Personalize the messages in script.js.
+
+🛠️ Customization Guide
+✏️ Edit the button messages
+
+Modify the messages array in script.js:
+
 const messages = [
     "Your custom message 1",
-    "Your custom message 2",
-    // Add more messages...
+    "Your custom message 2"
 ];
-```
 
-### Change the GIFs:
-Replace the Giphy URLs in `index.html` and `yes_page.html` with your preferred GIFs.
+🖼️ Replace GIFs
 
-### Modify colors:
-Update the gradients and colors in `styles.css` and `yes_style.css`.
+Swap the Giphy links inside index.html and yes_page.html with your preferred animations.
 
-## 📜 License
+🎨 Update colors
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Adjust gradients and color values in:
 
-## 🙏 Credits
+styles.css
 
-- GIFs sourced from [Giphy](https://giphy.com)
-- Design and code by [Your Name]
+yes_style.css
 
-## 💖 Note
+📜 License
 
-This is a fun, lighthearted project perfect for Valentine's Day or any special occasion. Feel free to fork and customize it for your own romantic gestures!
+Distributed under the MIT License.
+See the LICENSE file for more details.
 
----
+🙏 Credits
 
-Made with 💜 for that special someone
+GIFs provided by Giphy
+
+Design & development by Kumar Shivam
+
+💖 Note
+
+This lighthearted project is perfect for Valentine’s Day or any special moment. Feel free to fork, customize, and make it your own.
