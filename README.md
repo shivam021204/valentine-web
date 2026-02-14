@@ -11,9 +11,6 @@ An interactive and playful Valentine's Day proposal webpage with a fun twist!
 - Fully responsive design for mobile and desktop
 - Success page when they say yes!
 
-## 🚀 Live Demo
-
-[View Live Demo](https://yourusername.github.io/repository-name/) *
 
 ## 📁 Files
 

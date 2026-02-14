@@ -38,7 +38,7 @@ h1 {
     flex-wrap: wrap;
 }
   
-.yes-button {
+.yes-btn {
     font-size: 1.5em;
     padding: 15px 40px;
     background: linear-gradient(135deg, #a8d5ba 0%, #7cb89d 100%);
@@ -52,12 +52,12 @@ h1 {
     box-shadow: 0 5px 20px rgba(124, 184, 157, 0.4);
 }
 
-.yes-button:hover {
+.yes-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 30px rgba(124, 184, 157, 0.6);
 }
   
-.no-button {
+.no-btn {
     font-size: 1.5em;
     padding: 15px 40px;
     background: linear-gradient(135deg, #d4a5c4 0%, #b88bad 100%);
@@ -71,7 +71,7 @@ h1 {
     box-shadow: 0 5px 20px rgba(184, 139, 173, 0.4);
 }
 
-.no-button:hover {
+.no-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 30px rgba(184, 139, 173, 0.6);
 }
@@ -97,7 +97,7 @@ h1 {
         padding: 30px 25px;
     }
     
-    .yes-button, .no-button {
+    .yes-btn, .no-btn {
         font-size: 1.2em;
         padding: 12px 30px;
     }
