@@ -4,20 +4,29 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #e8d5f2 0%, #c9e4de 100%);
     font-family: 'Georgia', 'Times New Roman', serif;
     padding: 20px;
     box-sizing: border-box;
-}
+    background-image: url("heart2.jpg");
+    background-size: cover;     
+    background-position: center;   
+    background-repeat: no-repeat; }
+
+
+  
 
 .container {
     text-align: center;
-    background: rgba(247, 218, 218, 0.85);
+     background-image: url("back.jpg");
+    background-size: cover;     
+    background-position: center;   
+    background-repeat: no-repeat; 
     padding: 60px 50px;
     border-radius: 30px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(10px);
     max-width: 700px;
+    
 }
 
 .header_text {
